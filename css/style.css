@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.feedback-sec {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f9fa;
+
+  /* background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); */
+}
+
+.feedback-fea h1 {
+  font-weight: 700;
+  padding-bottom: 30px;
+  /* color: #333; */
+  /* margin-bottom: 50px; */
+  /* position: relative;
+  display: inline-block; */
+}
+
+/* .feedback-fea h1::after {
+  content: "";
+  width: 50%;
+  height: 4px;
+  background: #ffc107; 
+  position: absolute;
+  bottom: -10px;
+  left: 25%;
+  border-radius: 2px;
+} */
+
+/* Card Styling */
+.feedback-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+/* Hover Effect */
+.feedback-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Quote Icon Styling */
+.feedback-box i {
+  font-size: 30px;
+  color: #ffc107;
+  margin-bottom: 20px;
+}
+
+.feedback-box p {
+  color: #555;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* User Info Section */
+.feedback-img {
+  margin-top: 15px;
+}
+
+.feedback-img img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-box2 h5 {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Star Rating Color */
+.feedback-box2 p.mb-0 {
+  color: #ffc107;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 2px !important;
+}
+
+.align-items-center-custom {
+  align-items: center;
+}
